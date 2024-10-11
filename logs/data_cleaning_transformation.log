@@ -1,0 +1,5 @@
+2024-10-11 18:40:24 INFO: Loaded 4550 records from the database
+2024-10-11 18:40:24 INFO: Removed 0 duplicate records
+2024-10-11 18:40:24 INFO: Dropped 0 rows with missing timestamps
+2024-10-11 18:40:24 INFO: Saved 4550 cleaned records to cleaned_telegram_messages
+2024-10-11 18:40:24 INFO: Data cleaning and transformation completed successfully
