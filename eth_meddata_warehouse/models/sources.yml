@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: telegram
+    database: "{{ env_var('DB_NAME') }}"
+    schema: public
+    tables:
+      - name: cleaned_telegram_messages
