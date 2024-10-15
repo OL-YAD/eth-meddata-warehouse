@@ -45,3 +45,4 @@ class ObjectDetectionUpdate(BaseModel):
     class_name: Optional[str] = None
     confidence: Optional[float] = None
     bbox: Optional[List[float]] = None
+    
