@@ -87,7 +87,7 @@ eth-meddata-warehouse/
 │   └── database.py
 │   └── crud.py
 |
-├── logs/   4 log files 
+├── logs/   # log files 
 ├── tests/
 ├── requirements.txt    # all dependencies 
 └── README.md
