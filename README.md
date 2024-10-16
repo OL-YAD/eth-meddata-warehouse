@@ -53,14 +53,20 @@ This project builds a comprehensive data warehouse for Ethiopian medical busines
    ```
    dbt run
    ```
-
-3. Run object detection on scraped images:
+3. dbt Testing and documentation
+   ```
+   dbt test
+   dbt docs generate 
+   dbt docs serve 
+   ```
+4. Run object detection on scraped images:
    ```
    python scripts/yolo_object_detection.py
    ```
 
-4. Start the FastAPI server:
+5. Start the FastAPI server:
    ```
+   cd FastAPI
    uvicorn main:app --reload
    ```
 
